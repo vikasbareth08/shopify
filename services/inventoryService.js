@@ -12,7 +12,6 @@ exports.getInventoryItem = async(itemId) => {
     }
     
 }
-
 exports.getInventoryItemsById = async(params) => {
     try {
         const inventoryItems = await shopify.rest.InventoryItem.all({

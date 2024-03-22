@@ -1,5 +1,4 @@
 require('dotenv').config();
-// require('@shopify/shopify-api/adapters/node');
 const { restResources } = require('@shopify/shopify-api/rest/admin/2024-01');
 const { shopifyApi, ApiVersion } = require('@shopify/shopify-api');
 
